@@ -1,0 +1,26 @@
+body {
+    font-family:equity-text;
+    max-width:500px;
+    margin:auto;
+}
+
+h1 {
+    font-family:equity-text;
+    text-align:center;
+}
+
+h2 {
+    font-family:equity-text;
+    font-weight:normal;
+    text-align:center;
+}
+
+table {
+    font-family:equity-text;
+    font-size:16px;
+    margin:auto;
+}
+
+tr td:first-child {
+    text-align:right;
+}

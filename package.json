@@ -1,0 +1,10 @@
+{
+  "name": "planet-tables",
+  "description": "Tables of planetary events",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "jade": "1.7.0"
+  }
+}

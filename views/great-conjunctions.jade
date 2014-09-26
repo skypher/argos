@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+  head
+    title Table of Great Conjunctions
+    link(rel='stylesheet', href='/static/equity-a.css')
+    link(rel='stylesheet', href='/static/1406-fonts.css')
+    link(rel='stylesheet', href='/static/style.css')
+  body
+    h1 Table of Great Conjunctions
+    h2 3,000 BCE to 3,000 CE
+    p.
+      Jupiter and Saturn are the outermost planets of traditional
+      astrology, and also the slowest and larget. When they meet in
+      the sky this event is called a <span style="font-style:italic;">Great Conjunction</span>.
+
+    p.
+      The ancients believed these events to be portents of great
+      changes, especially when their trigonal cycle had been about
+      to enter a new sign.
+
+    ul
+      li: a(href=".") 3,000 BCE - 2,000 BCE
+      li: a(href=".") 2,000 BCE - 1,000 BCE
+      li: a(href=".") 1,000 BCE - 0 CE
+      li: a(href=".") 0 CE - 1,000 CE
+      li: a(href=".") 1,000 CE - 2,000 CE
+      li: a(href=".") 2,000 CE - 3,000 CE
+
+    table
+      thead
+      tbody
+        for event in events
+          tr
+            td #{event.date}
+            td #{event.description}
+
